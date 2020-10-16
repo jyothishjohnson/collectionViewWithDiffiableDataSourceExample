@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //typealiases
     typealias DataSource = UICollectionViewDiffableDataSource<Section, Sample>
     typealias Snapshot = NSDiffableDataSourceSnapshot<Section, Sample>
     
