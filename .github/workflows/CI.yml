@@ -16,5 +16,5 @@ jobs:
     - name: Select Xcode
       run: sudo xcode-select -switch /Applications/Xcode_12.app
     - name: Build
-      run: xcodebuild clean build test -workspace collectionviewdiffableDS.xcworkspace -scheme "collectionviewdiffableDS" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 11" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
+      run: xcodebuild clean build -workspace collectionviewdiffableDS.xcworkspace -scheme "collectionviewdiffableDS" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 11" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
 
